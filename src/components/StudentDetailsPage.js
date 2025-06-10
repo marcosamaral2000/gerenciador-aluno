@@ -65,7 +65,7 @@ type="number"
 aria-label="nota"
 value={note}
 onChange={(field) =>{
-    setNote(field.target.valu)
+    setNote(field.target.value)
 }}
 />
 </div>        
@@ -103,6 +103,7 @@ onChange={(field) =>{
     </label>    
 </div>
 
+<br/>
 <div className="student-buttons" tabIndex={1}>
     <button
     onClick={() =>{

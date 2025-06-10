@@ -43,11 +43,11 @@ const {name, setName, email, setEmail, note, setNote, navigate, addStudent} = us
     Nota do aluno(a):
 </strong>
 <input
-type="number"
+type="nutext"
 aria-label="nota"
 value={note}
 onChange={(field) =>{
-    setNote(field.target.valu);
+    setNote(field.target.value);
 }}  
 />
       </div>
