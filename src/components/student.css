@@ -1,0 +1,36 @@
+.student{
+  background-color: black; 
+  color: white;          /* Letra branca */
+  margin: 10px; /* Espaçamento entre itens (ajuste conforme necessário) */    
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.student-buttons{
+    display: flex;
+    padding:  10px;
+}
+
+.student-alert{
+  background-color:   red;
+  color:   white;
+  margin: 10px;
+  padding:  10px;
+text-align: center;
+font-size: 40px;
+}
+
+/* Estilo para telas grandes (desktop) */
+@media (min-width: 768px) {
+  #menu-page{
+    display: flex; /* Menu horizontal */
+  }
+}
+
+/* Estilo para telas pequenas (mobile) */
+@media (max-width: 767px) {
+  #menu-page{
+    display: block; /* Menu vertical ou hambúrguer */
+  }
+}
